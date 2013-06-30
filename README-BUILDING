@@ -1,0 +1,24 @@
+yakka is built with cmake
+
+To Build libyakka
+
+//TODO
+
+To Build Yakka
+
+
+//TODO
+
+To Use Eclipse as your IDE
+
+mkdir $yakkaprojdir/build (build is in .gitignore so this is safe)
+cd $yakkaprojdir/build
+cmake -G"Eclipse CDT4 - Unix Makefiles" -D CMAKE_BUILD_TYPE=Debug ../src
+
+In eclipse now improt the project in $yakkaprojdir/build.
+To Run/Debug the binaries set the Binary Parser to your system:
+Project->Properties->C/C++ Make Project->Binary Parsers
+
+
+
+
